@@ -48,5 +48,6 @@ if __name__ == "__main__":
     words = words.map(lambda x: (x[1], x[0])).sortByKey(False).take(24)
     
     print(words)
-    #I think i "have" found the word ;) 
-    #-> have kommt 5877 x im Text vor und ist damit auf Platz 24
+    """
+    [(27313, 'the'), (26001, 'and'), (20670, 'i'), (18868, 'to'), (17455, 'of'), (14555, 'a'), (13559, 'you'), (12478, 'my'), (10942, 'in'), (10880, 'that'), (9116, 'is'), (8465, 'not'), (7754, 'with'), (7706, 'me'), (7645, 'it'), (7554, 'for'), (6856, 'his'), (6840, 'be'), (6654, 'your'), (6586, 'this'), (6261, 'but'), (6206, 'he'), (5877, 'have'), (5725, 'as')]
+    "as" kommt 5725 mal im Text vor und ist damit auf Platz 24"""
